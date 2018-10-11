@@ -1,0 +1,66 @@
+html,body{
+  font-family: "Antiqua", Helvetica, sans-serif;
+  
+  
+}
+#main{
+  background: gray;
+  text-align: center;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#title{
+  text-align: center;  
+}
+
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+#img-div{
+  margin: 5px;
+  margin-top: 10px;
+  width: 100%; 
+}
+
+#img-caption{
+  margin: 5px;
+  font-size: 13px;
+  
+}
+
+ul{
+  max-width: 500px;
+  margin: auto;  
+  text-align: center;
+}
+
+li{
+  margin: 10px;
+  
+}
+
+blockquote{
+  text-align: right;
+  margin: 50px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#quote{
+  text-align: right;
+  color: red;
+  font-size: 20px;
+}
+
+#flag{
+  max-width: 10%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
