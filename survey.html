@@ -21,7 +21,7 @@
       <input type="email" name="email" id="email" class="input-field" required placeholder="Your email">
       </div>
     </div>
-    <div class="rowTav">
+    <div class="rowTab">
       <div class="labels">
         <label id="number-label" for="age">* Age: </label>
       </div>
@@ -29,7 +29,27 @@
       <input type="number" name="age" id="number" min="1" max="100" class="input-field" placeholder="Age">
       </div>
     </div>
-	
+	<div class="rowTab">
+		<div class="labels">
+			<label for="currentPos">What is your current position</label>
+		</div>
+		<div class="rightTab">
+			<select id="dropdown" name="currentPos" class="dropdown">
+				<option disabled value>Select</option>
+				<option value="student">Student</option>
+				<option value="job">Full time</option>
+				<option value="other">Other</option>
+				<option value="noAnswer">Don't want to answer</option>
+			</select>
+		</div>
+	</div>
+	<div class="rowTab">
+		<div class="labels">
+			<label for="pizza">* What's your favourite pizza?</label>
+		</div>
+		<div class="rightTab">
+			<ul style="list-style: none;">
+				<li class="radio"><label>4Cheese<input name="radio-buttons" value="1" type="radio" class="pizza"></label></li>
 	<button class="submit" type="submit">Submit</button>
 	</form>
 	
