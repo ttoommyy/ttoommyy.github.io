@@ -1,0 +1,38 @@
+html,
+body{
+	background-color: #7CB9E8;
+	text-alig: center;
+	font-family: Helvetica, sans-serif;
+	mind-width: 320px;
+}
+
+header {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px;
+}
+
+#form-out {
+	background-color: rgb(250, 250, 250);
+	margin: 0 auto;
+	border-radius: 4px;
+	width: 75%;
+	max-width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.labels {
+	display: inline:block;
+	text-align: right;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+	
+}
+
+.rightTab {
+	
+	
+}
