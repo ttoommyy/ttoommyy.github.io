@@ -60,9 +60,8 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     document.getElementById('score-' + activePlayer).textContent = scores[activePlayer]
     
     //check if player win
-    //scores[activePlayer] >= 100 ? document.querySelector('#name-' + //activePlayer).textContent = 'WINNER' 
     
-    if(scores[activePlayer] >= 20) {
+    if(scores[activePlayer] >= 50) {
         document.querySelector('#name-' + activePlayer).textContent = 'WINNER'
         document.querySelector('.dice').style.display = 'none'
         document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner')
